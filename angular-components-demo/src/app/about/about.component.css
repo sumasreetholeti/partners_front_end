@@ -1,0 +1,50 @@
+
+@keyframes example {
+  0%   {top:0px;}
+  25%  {margin-top:70px;}
+  /*50%  {margin-top:100px;}*/
+  100% {margin-top:120px;}
+}
+
+
+#team_heading{
+  margin-top: 120px;
+  font-size:150px;
+  font-weight: 900;
+  font-color:#000000;
+  font-display: Arial, Helvetica, sans-serif;
+  position: relative;
+  animation-name: example;
+  animation-duration: 1s;
+}
+
+
+
+#entire{
+  margin-left: 100px;
+}
+
+#line{
+  /*color:000000;*/
+  background: #000000;
+  width:1200px;
+  height:4px;
+}
+
+img{
+  /*margin-top: 40px;*/
+height:300px;
+ width :500px;
+}
+
+#focused{
+  position: relative;
+  font-size:70px;
+  font-display: bold;
+  /*margin-top: 40px;*/
+}
+
+#ss{
+  position: absolute;
+  /*margin-inline-start: 100px;*/
+}

@@ -1,0 +1,62 @@
+
+@keyframes example {
+  0%   {top:0px;}
+  25%  {margin-top:70px;}
+  /*50%  {margin-top:100px;}*/
+  100% {margin-top:120px;}
+}
+
+
+#team_heading{
+  margin-top: 120px;
+  font-size:150px;
+  font-weight: 900;
+  font-color:#000000;
+  font-display: Arial, Helvetica, sans-serif;
+  position: relative;
+  animation-name: example;
+  animation-duration: 1s;
+}
+
+a{
+ text-decoration: none;
+ color:  	#C0C0C0;
+ onclick : #696969;
+ font-size: 12px;
+}
+#entire{
+  margin-left: 100px;
+}
+#Investment_team{
+  margin-inline-start: 20px
+}
+#Investment_advisors
+{
+  margin-inline-start: 20px
+}
+#line{
+  /*color:000000;*/
+  background: black;
+  width:1200px;
+  height:2px;
+}
+#l{
+  margin-top: 30px;
+}
+#team{
+  margin-top: 50px;
+}
+#name{
+  font-display: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+#designation{
+   /* margin-top: px;*/
+}
+img{
+height:300px;
+ width :220px
+}
+img:hover{
+filter: grayscale(100%);
+}

@@ -1,0 +1,76 @@
+
+@keyframes example {
+  0%   {top:0px;}
+  25%  {margin-top:70px;}
+  /*50%  {margin-top:100px;}*/
+  100% {margin-top:120px;}
+}
+
+
+#team_heading{
+  margin-top: 120px;
+  font-size:150px;
+  font-weight: 900;
+  font-color:#000000;
+  font-display: Arial, Helvetica, sans-serif;
+  position: relative;
+  animation-name: example;
+  animation-duration: 1s;
+}
+.button {
+  background-color:  	#A9A9A9;
+  border: none;
+  color: #000000;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+
+  font-size: 14px;
+  font-display:bold;
+  border-radius: 25px;
+  margin: 6px 3px;
+}
+
+.button:active  {
+  background-color:#000000;
+  color: #FFFFFF;
+}
+a{
+ text-decoration: none;
+ color:  	#C0C0C0;
+ onclick : #696969;
+ font-size: 12px;
+ margin-inline-start: 20px
+}
+#entire{
+  margin-left: 100px;
+}
+
+#line{
+  /*color:000000;*/
+  background: #000000;
+  width:1200px;
+  height:4px;
+}
+#l{
+  margin-top: 30px;
+}
+#team{
+  margin-top: 50px;
+}
+#name{
+  font-display: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+img{
+height:300px;
+ width :220px;
+ filter: grayscale(100%);
+}
+img:hover{
+  /*height:300px;
+  width :220px;
+  color: #FF00FF;*/
+  filter: invert(100%);
+}
